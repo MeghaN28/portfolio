@@ -524,6 +524,38 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     border:  1px solid #e5ebf2;
 }
 
+.profiles {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+}
+
+.section-heading h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.single-profile {
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.single-profile .profile-txt a {
+    font-size: 2rem;
+    color: #333;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.single-profile .profile-icon-name {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+
 .profiles-content {padding-left: 200px;}
 .profiles-content .col-sm-3{padding:0;}
 .profile-txt {
