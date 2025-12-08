@@ -891,3 +891,89 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     margin-top: 5px; /* small gap from the icon/title */
 }
 /*========================Thank you=================
+/* =========================
+   Projects Section Styles
+   ========================= */
+
+.profiles {
+    padding: 60px 0;
+    background-color: #f9f9f9;
+    font-family: 'Arial', sans-serif;
+}
+
+.profiles .section-heading h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 50px;
+    color: #333;
+}
+
+.single-profile {
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    margin-bottom: 30px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    padding: 30px 20px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.single-profile:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+}
+
+.profile-txt {
+    text-align: center;
+}
+
+.profile-icon-name {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #007bff; /* Bootstrap primary blue */
+    margin-bottom: 15px;
+}
+
+.profile-txt p {
+    font-size: 0.95rem;
+    color: #555;
+    margin-bottom: 20px;
+    min-height: 60px; /* makes all cards uniform height */
+}
+
+.btn.btn-primary {
+    background-color: #007bff;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    transition: background-color 0.3s;
+}
+
+.btn.btn-primary:hover {
+    background-color: #0056b3;
+    color: #fff;
+}
+
+.profiles-content .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .single-profile {
+        padding: 20px 15px;
+    }
+    .profile-icon-name {
+        font-size: 1.1rem;
+    }
+    .profile-txt p {
+        min-height: auto;
+    }
+}
