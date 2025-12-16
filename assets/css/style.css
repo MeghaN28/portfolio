@@ -272,18 +272,28 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
 
 /*.single-about-img */
 .single-about-img{position: relative;box-shadow: 0 5px 20px rgba(14,25,80,.30);}
+.single-about-img{
+    position: relative;
+    box-shadow: 0 5px 20px rgba(14,25,80,.30);
+    overflow: hidden; /* ensure image doesn't spill out */
+    border-radius: 10px;
+    height: 420px; /* fixed container height for consistent crop */
+}
 .single-about-img:before {
-    position:  absolute;
+    position: absolute;
     content: " ";
     top: 0;
-    left:  0;
-    width: 109%;
-    height:  100%;
-    background: rgba(31,44,108,.3);
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(31,44,108,.18); /* lighter overlay */
 }
 .single-about-img img {
-    max-width: 600px;
-    height: 468px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* crop and center image */
+    object-position: center center;
+    display: block;
 }
 .about-list-icon{
     display: flex;
@@ -292,9 +302,14 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     position: absolute;
     bottom: 0;
     left: 0;
-    width: 109%;
-    height: 90px;
+    width: 100%;
+    height: 70px;
     background: #1f2c6c;
+}
+
+@media (max-width: 768px){
+    .single-about-img{height: 320px}
+    .about-list-icon{height: 60px}
 }
 /*.ab-list-icon */
 .about-list-icon ul {
