@@ -1,569 +1,442 @@
 <!doctype html>
-<html class="no-js" lang="en">
+<html lang="en">
 
-    <head>
-        <!-- meta data -->
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f6efe3">
+    <meta name="description" content="Megha Narendra Simha — AI Security Engineer building guardrails for AI agents and post-quantum cryptography tooling.">
 
-        <!--font-family-->
-		<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&amp;subset=devanagari,latin-ext" rel="stylesheet">
-        
-        <!-- title of site -->
-        <title>Megha Narendra Simha | Smart AI + Cloud Engineer</title>
+    <title>Megha Narendra Simha | AI Security Engineer</title>
 
-        <!-- For favicon png -->
-		<link rel="shortcut icon" type="image/icon" href="assets/logo/favicon.png"/>
-       
-        <!--font-awesome.min.css-->
-        <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="shortcut icon" type="image/icon" href="assets/logo/favicon.png"/>
 
-		<!--flat icon css-->
-		<link rel="stylesheet" href="assets/css/flaticon.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-		<!--animate.css-->
-        <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/theme.css">
+</head>
 
-        <!--owl.carousel.css-->
-        <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
-		<link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
-		
-        <!--bootstrap.min.css-->
-        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-		
-		<!-- bootsnav -->
-		<link rel="stylesheet" href="assets/css/bootsnav.css" >	
-        
-        <!--style.css-->
-        <link rel="stylesheet" href="assets/css/style.css">
-        
-        <!--responsive.css-->
-        <link rel="stylesheet" href="assets/css/responsive.css">
-        
-        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-		
-        <!--[if lt IE 9]>
-			<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-			<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-        <![endif]-->
+<body>
 
-    </head>
-	
-	<body>
-		<!--[if lte IE 9]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-        <![endif]-->
-		
-		<!-- top-area Start -->
-		<header class="top-area">
-			<div class="header-area">
-				<!-- Start Navigation -->
-			    <nav class="navbar navbar-default bootsnav navbar-fixed dark no-background">
+    <div class="mn-cursor" id="mn-cursor" aria-hidden="true"></div>
 
-			        <div class="container">
+    <header class="mn-nav" id="mn-nav">
+        <div class="mn-nav-inner">
+            <a href="#hero" class="mn-logo smooth-menu">Megha<span>.</span></a>
+            <nav class="mn-nav-links">
+                <a href="#about" class="mn-nav-link smooth-menu">About</a>
+                <a href="#experience" class="mn-nav-link smooth-menu">Experience</a>
+                <a href="#skills" class="mn-nav-link smooth-menu">Skills</a>
+                <a href="#projects" class="mn-nav-link smooth-menu">Projects</a>
+                <a href="#contact" class="mn-nav-link mn-nav-cta smooth-menu">Contact</a>
+            </nav>
+            <button type="button" class="mn-nav-toggle" id="mn-nav-toggle" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+        <div class="mn-nav-mobile" id="mn-nav-mobile">
+            <a href="#about" class="smooth-menu">About</a>
+            <a href="#experience" class="smooth-menu">Experience</a>
+            <a href="#skills" class="smooth-menu">Skills</a>
+            <a href="#projects" class="smooth-menu">Projects</a>
+            <a href="#contact" class="smooth-menu">Contact</a>
+        </div>
+    </header>
 
-			            <!-- Start Header Navigation -->
-			            <div class="navbar-header">
-			                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
-			                    <i class="fa fa-bars"></i>
-			                </button>
-			                <a class="navbar-brand" href="index.html">Megha</a>
-			            </div><!--/.navbar-header-->
-			            <!-- End Header Navigation -->
+    <main>
 
-			            <!-- Collect the nav links, forms, and other content for toggling -->
-			            <div class="collapse navbar-collapse menu-ui-design" id="navbar-menu">
-			                <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
-			                    <li class=" smooth-menu active"><a href="#welcome-hero">home</a></li>
-			                    <li class=" smooth-menu"><a href="#about">about</a></li>
-			                    <li class="smooth-menu"><a href="#experience">experience</a></li>
-			                    <li class="smooth-menu"><a href="#skills">skills</a></li>
-			                    <li class="smooth-menu"><a href="#projects">projects</a></li>
-			                    <li class="smooth-menu"><a href="#contact">contact</a></li>
-			                </ul><!--/.nav -->
-			            </div><!-- /.navbar-collapse -->
-			        </div><!--/.container-->
-			    </nav><!--/nav-->
-			    <!-- End Navigation -->
-			</div><!--/.header-area-->
+        <!-- Hero -->
+        <section id="hero" class="mn-hero">
+            <div class="mn-container mn-hero-inner">
+                <p class="mn-eyebrow reveal-init">Seattle, WA — AI Security Engineer</p>
+                <h1 class="mn-hero-title">
+                    <span class="reveal-init">Megha</span>
+                    <span class="reveal-init mn-hero-title-accent">Narendra Simha</span>
+                </h1>
+                <p class="mn-hero-sub reveal-init">
+                    Software engineer with 4+ years building AI-powered security tooling and scalable production
+                    systems — verifying AI agent behavior with automated guardrails and hardening cryptographic
+                    pipelines end-to-end in CI/CD.
+                </p>
+                <div class="mn-hero-actions reveal-init">
+                    <a class="mn-btn mn-btn-solid" href="assets/download/Megha_N_Resume_2026.pdf" target="_blank">Download résumé</a>
+                    <a class="mn-btn mn-btn-line smooth-menu" href="#contact">Let's talk <span>→</span></a>
+                </div>
+            </div>
 
-		    <div class="clearfix"></div>
+            <div class="mn-hero-marquee" aria-hidden="true">
+                <div class="mn-marquee-track">
+                    <span>AI Guardrails</span><span>•</span><span>Post-Quantum Cryptography</span><span>•</span><span>Cloud Security</span><span>•</span><span>Multi-Agent Systems</span><span>•</span>
+                    <span>AI Guardrails</span><span>•</span><span>Post-Quantum Cryptography</span><span>•</span><span>Cloud Security</span><span>•</span><span>Multi-Agent Systems</span><span>•</span>
+                </div>
+            </div>
 
-		</header><!-- /.top-area-->
-		<!-- top-area End -->
-	
-		<!--welcome-hero start -->
-		<section id="welcome-hero" class="welcome-hero">
-			<div class="hero-gradient"></div>
-			<div class="container position-relative">
-				<div class="row align-items-center hero-content">
-					<div class="col-lg-7">
-						<p class="hero-tagline">Seattle-based full-stack & AI engineer</p>
-						<h1>Hi, I'm <span>Megha Narendra Simha</span>.</h1>
-						<p class="hero-desc fade-up delay-1">
-							I build resilient, human-centered cloud-native experiences with .NET, React, and AI so teams can ship value faster
-							while keeping scalability, security, and delight at the heart of every release.
-						</p>
-						<div class="hero-cta">
-							<a class="btn hero-btn primary" href="assets/download/Megha_N_Resume_2026.pdf" target="_blank">Download 2026 Resume</a>
-							<a class="btn hero-btn secondary" href="#contact">Let's talk</a>
-						</div>
-						<div class="hero-stats">
-							<div class="stat-card fade-up delay-2">
-								<span>4+ Years</span>
-								<p>Delivering full-stack & cloud programs for global teams.</p>
-							</div>
-							<div class="stat-card fade-up delay-3">
-								<span>Multiple launches</span>
-								<p>Microservices, GenAI pilots, and CI/CD automations in production.</p>
-							</div>
-							<div class="stat-card fade-up delay-4">
-								<span>AI + Cloud</span>
-								<p>Designing AI assistants and secure Azure/AWS foundations.</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-5">
-							<div class="hero-spotlight fade-up delay-3">
-							<p class="spotlight-label">Featured project</p>
-							<h3>SmartCartAI</h3>
-							<p>
-								An AI-powered shopping assistant that crafts smarter grocery lists, keeps budgets in check,
-								and flags healthier or sustainable swaps so every cart aligns with the customer's goals.
-							</p>
-							<div class="spotlight-actions">
-								<a class="btn hero-btn tertiary" href="https://github.com/MeghaN28/SmartCartAI" target="_blank">View on GitHub</a>
-							</div>
-						</div>
-					</div>
-				</div><!-- /.row -->
-			</div><!-- /.container -->
-		</section><!--/.welcome-hero-->
-		<!--welcome-hero end -->
+            <a href="#about" class="mn-scroll-cue smooth-menu" aria-label="Scroll to about"><span></span></a>
+        </section>
 
-		<!--about start -->
-		<section id="about" class="about">
-			<div class="section-heading text-center">
-				<h2>about me</h2>
-			</div>
-			<div class="container">
-				<div class="about-content">
-					<div class="row">
-						<div class="col-sm-6">
-							<div class="single-about-txt">
-								<h3>
-									I am a software engineer who blends full-stack rigor with AI experimentation to solve real-world business challenges.
-									From cloud-native microservices to GenAI assistants, I build resilient systems that keep teams and customers in sync.
-								</h3>
-								<ul class="about-points-list">
-									<li>Led secure microservices at Costco while championing observability, reliability, and API cohesion.</li>
-									<li>Expanded SmartCartAI and guided AI Tutor by pairing UX design with agents, knowledge graphs, and automation.</li>
-									<li>Support peers as a teaching assistant and volunteer, translating complex concepts into repeatable learning journeys.</li>
-								</ul>
-								<div class="about-highlight-grid">
-									<div class="highlight-card fade-up delay-2">
-										<h4>Cloud & APIs</h4>
-										<p>Architected Azure and AWS pipelines for scalable .NET APIs with CI/CD, security scans, and monitoring.</p>
-									</div>
-									<div class="highlight-card fade-up delay-3">
-										<h4>AI & Experiences</h4>
-										<p>Design and onboard GenAI agents that streamline shopping, mentoring, and internal automation workflows.</p>
-									</div>
-									<div class="highlight-card fade-up delay-4">
-										<h4>Mentorship</h4>
-										<p>Educate with clarity through TA roles, workshops, and open-source contributions to build confident engineers.</p>
-									</div>
-								</div>
-								<div class="about-metrics-grid">
-										<div class="metric-chip fade-up delay-3">
-										<span>200+</span>
-										<p>students mentored across AI, DB, cloud, and Python courses.</p>
-									</div>
-										<div class="metric-chip fade-up delay-4">
-										<span>50+</span>
-										<p>hackathon participants guided toward scalable AI solutions.</p>
-									</div>
-										<div class="metric-chip fade-up delay-5">
-										<span>4+ years</span>
-										<p>shipping secure software & GenAI pilots worldwide.</p>
-									</div>
-								</div>
-								<div class="row">
-									<div class="col-sm-4">
-										<div class="single-about-add-info">
-											<h3>phone</h3>
-											<p>206-596-1323</p>
-										</div>
-									</div>
-									<div class="col-sm-4">
-										<div class="single-about-add-info">
-											<h3>email</h3>
-											<p>n.megha82@gmail.com</p>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-sm-offset-1 col-sm-5">
-							<div class="single-about-img">
-								<img src="assets/images/about/megha-headshot.jpg" alt="profile_image">
-								<div class="about-list-icon">
-									<ul>
-										
-										<li>
-											<a href="https://www.linkedin.com/in/megha-narendra-simha-375684148/">
-												<i  class="fa fa-linkedin" aria-hidden="true"></i>
-											</a>
-										</li><!-- / li -->
-										<li>
-											<a href="https://github.com/MeghaN28">
-												<i  class="fa fa-github" aria-hidden="true"></i>
-											</a>
-										</li><!-- / li -->
-										
-										
-									</ul><!-- / ul -->
-								</div><!-- /.about-list-icon -->
+        <!-- About -->
+        <section id="about" class="mn-section">
+            <div class="mn-container">
+                <div class="mn-section-head reveal-init">
+                    <span class="mn-index">01</span>
+                    <h2>About</h2>
+                </div>
 
-							</div>
-
-						</div>
-					</div>
-				</div>
-			</div>
-		</section><!--/.about-->
-		<!--about end -->
-		
-		<!--education start -->
-		<section id="education" class="education">
-			<div class="section-heading text-center">
-				<h2>education</h2>
-				<p>Formal computer science training that blends full-stack development, cloud, and AI.</p>
-			</div>
-			<div class="container">
-				<div class="education-grid">
-						<article class="education-card fade-up delay-2">
-							<header>
-								<span class="education-date">2024 - Mar 2026</span>
-								<h3>Master of Computer Science</h3>
-							</header>
-							<p class="education-institution">City University of Seattle — Seattle, WA, USA</p>
-							<p class="education-description">
-								Completed Master of Computer Science in March 2026 with a focus on full-stack architectures, cloud-native systems, and AI/ML-driven applications.
-							</p>
-						</article>
-						<article class="education-card fade-up delay-3">
-						<header>
-							<span class="education-date">2014 - 2018</span>
-							<h3>Bachelor of Computer Science & Engineering</h3>
-						</header>
-						<p class="education-institution">JSS Academy of Technical Education — Bengaluru, India</p>
-						<p class="education-description">
-							Grounded in software engineering, databases, and object-oriented programming, with practical capstones on scalable systems.
-						</p>
-					</article>
-				</div>
-			</div>
-		</section><!--/.education-->
-		<!--education end -->
-
-		<!--skills start -->
-		<section id="skills" class="skills">
-		    <div class="section-heading text-center">
-		        <h2>Skills & Tooling</h2>
-		        <p>Full-stack engineering backed by secure cloud platforms, data systems, and AI tooling.</p>
-		    </div>
-		    <div class="container">
-		        <div class="skills-grid">
-		            <div class="skill-column">
-		                <h4>Platforms & Cloud</h4>
-		                <div class="skill-pill">Azure</div>
-		                <div class="skill-pill">AWS</div>
-		                <div class="skill-pill">CI/CD pipelines</div>
-		                <div class="skill-pill">Observability</div>
-		                <div class="skill-pill">Security & RBAC</div>
-		            </div>
-		            <div class="skill-column">
-		                <h4>Backend & APIs</h4>
-		                <div class="skill-pill">C#</div>
-		                <div class="skill-pill">.NET Core</div>
-		                <div class="skill-pill">REST & GraphQL</div>
-		                <div class="skill-pill">SQL Server</div>
-		                <div class="skill-pill">Cosmos/MongoDB</div>
-		            </div>
-		            <div class="skill-column">
-		                <h4>Frontend & Experience</h4>
-		                <div class="skill-pill">React</div>
-		                <div class="skill-pill">HTML/CSS</div>
-		                <div class="skill-pill">UX storytelling</div>
-		                <div class="skill-pill">Design systems</div>
-		                <div class="skill-pill">Accessibility</div>
-		            </div>
-		            <div class="skill-column">
-		                <h4>AI & Collaboration</h4>
-		                <div class="skill-pill">GenAI agents</div>
-		                <div class="skill-pill">Python</div>
-		                <div class="skill-pill">Git & GitHub</div>
-		                <div class="skill-pill">Mentorship</div>
-		                <div class="skill-pill">Hackathons & workshops</div>
-		            </div>
-		        </div>
-		    </div>
-		</section><!--/.skills-->
-		<!--skills end -->
-
-		<!--experience start -->
-		<section id="experience" class="experience">
-			<div class="section-heading text-center">
-				<p class="section-subtitle">Professional Experience</p>
-				<h2>Career Highlights</h2>
-				<p>Driving AI-enriched experiences, secure cloud platforms, and scalable software across education and enterprise.</p>
-			</div>
-			<div class="container">
-				<div class="experience-grid">
-						<article class="experience-card fade-up delay-2">
-						<div class="experience-card-header">
-							<h3>Student Worker / Teaching Assistant</h3>
-							<span class="company-location">City University of Seattle · Seattle, WA</span>
-							<span class="experience-date">Jan 2025 – Present</span>
-						</div>
-						<ul>
-							<li>Led support for AI, Database Systems, Cloud Computing, and Python courses for 200+ students and 8 professors, improving assignment completion and technical understanding through hands-on mentoring.</li>
-							<li>Organized and executed a technical hackathon with 50+ participants, mentoring teams to build scalable software and AI-based solutions.</li>
-						</ul>
-					</article>
-						<article class="experience-card fade-up delay-3">
-						<div class="experience-card-header">
-							<h3>Software Developer Intern</h3>
-							<span class="company-location">Costco Wholesale · Issaquah, WA</span>
-							<span class="experience-date">Jun 2024 – Aug 2024</span>
-						</div>
-						<ul>
-							<li>Improved distributed .NET Core microservices by optimizing asynchronous workflows and SQL queries, reducing API latency by 30% in high-throughput systems.</li>
-							<li>Built secure REST APIs using OAuth2, JWT, and RBAC, supporting 8,000+ requests per day while improving reliability.</li>
-							<li>Presented architecture and validation workflows to 50+ stakeholders, improving cross-team understanding and adoption.</li>
-						</ul>
-					</article>
-						<article class="experience-card fade-up delay-4">
-						<div class="experience-card-header">
-							<h3>Application Development Analyst</h3>
-							<span class="company-location">Accenture · Bengaluru, India</span>
-							<span class="experience-date">Feb 2022 – Feb 2023</span>
-						</div>
-						<ul>
-							<li>Built scalable REST APIs using .NET Core for seat booking workflows, supporting 10,000+ employees with real-time availability.</li>
-							<li>Created a QR-based booking system and redesigned the UI with lazy loading and CDN optimizations, reducing manual check-in effort by 60% and page load times by 40%.</li>
-							<li>Led onboarding and mentoring for 5 engineers, improving team productivity by 30%.</li>
-						</ul>
-					</article>
-						<article class="experience-card fade-up delay-5">
-						<div class="experience-card-header">
-							<h3>Application Developer</h3>
-							<span class="company-location">IBM PMI Client · Bengaluru, India</span>
-							<span class="experience-date">Mar 2021 – Dec 2021</span>
-						</div>
-						<ul>
-							<li>Built modules for inventory management, downtime tracking, and session handling for 800+ users within a .NET MES system.</li>
-							<li>Resolved 50% of production issues, significantly improving system stability.</li>
-						</ul>
-					</article>
-					<article class="experience-card">
-						<div class="experience-card-header">
-							<h3>Software Developer</h3>
-							<span class="company-location">NTT Data McKesson Client · Bengaluru, India</span>
-							<span class="experience-date">Apr 2019 – Mar 2021</span>
-						</div>
-						<ul>
-							<li>Led RxChange feature development in a .NET pharmacy system, optimizing stored procedures and reducing transaction latency by 30%.</li>
-							<li>Delivered documentation and knowledge transfers for 50+ team members, improving onboarding and system understanding.</li>
-							<li>Demonstrated product capabilities to 100+ stakeholders, driving adoption and alignment.</li>
-						</ul>
-					</article>
-				</div>
-			</div>
-		</section><!--/.experience-->
-		<!--experience end -->
-
-	
-		<section id="projects" class="projects">
-		    <div class="section-heading text-center">
-		        <p class="section-subtitle">Selected Work</p>
-		        <h2>Projects & Product Engineering</h2>
-		        <p>From AI agents to secure experiences, these highlight how I pair systems thinking with design.</p>
-		    </div>
-		    <div class="container">
-		        <div class="project-grid">
-		            <article class="project-card fade-up delay-2">
-		                <img src="assets/images/projects/smartcartai.png" alt="SmartCartAI screenshot">
-		                <div class="project-card-body">
-		                    <h3>SmartCartAI</h3>
-		                    <p>AI-powered grocery planner that balances budgets, highlights healthier swaps, and delivers automated recipes.</p>
-		                    <div class="project-actions">
-		                        <a class="btn project-btn" href="https://github.com/MeghaN28/SmartCartAI" target="_blank">View on GitHub</a>
-		                    </div>
-		                </div>
-		            </article>
-		            <article class="project-card fade-up delay-3">
-		                <img src="assets/images/projects/aitutor.png" alt="AI Tutor screenshot">
-		                <div class="project-card-body">
-		                    <h3>AI Tutor</h3>
-		                    <p>Gemini-based learning assistant that delivers quizzes, study plans, and collaborative edits.</p>
-		                    <div class="project-actions">
-		                        <a class="btn project-btn" href="https://github.com/MeghaN28/AI-Tutor" target="_blank">View on GitHub</a>
-		                    </div>
-		                </div>
-		            </article>
-		            <article class="project-card fade-up delay-4">
-		                <img src="assets/images/projects/imageandface.png" alt="AWS Rekognition project">
-		                <div class="project-card-body">
-		                    <h3>AWS Rekognition Image Analysis</h3>
-		                    <p>React-based image analysis tool with Lambda, API Gateway, S3, and DynamoDB, achieving 95% detection accuracy on 200+ images.</p>
-		                    <div class="project-actions">
-		                        <a class="btn project-btn" href="https://github.com/MeghaN28/ImageUploadFrontEnd" target="_blank">View on GitHub</a>
-		                    </div>
-		                </div>
-		            </article>
-		            <article class="project-card fade-up delay-5">
-		                <img src="assets/images/projects/supplysoul.png" alt="Supply Soul screenshot">
-		                <div class="project-card-body">
-		                    <h3>Supply Soul</h3>
-		                    <p>Healthcare inventory & ML forecasting platform with a Flask backend and React dashboards.</p>
-		                    <div class="project-actions">
-		                        <a class="btn project-btn" href="https://github.com/MeghaN28/Team1_LowCodeAgenthon" target="_blank">View on GitHub</a>
-		                    </div>
-		                </div>
-		            </article>
-		            <article class="project-card fade-up delay-6">
-		                <img src="assets/images/projects/podedu.png" alt="PodEdu AI screenshot">
-		                <div class="project-card-body">
-		                    <h3>PodEdu AI</h3>
-		                    <p>Next.js platform that transcribes video, generates AI podcast recaps, and streams AI avatar hosts.</p>
-		                    <div class="project-actions">
-		                        <a class="btn project-btn" href="https://github.com/MeghaN28/HackathonPOC" target="_blank">View on GitHub</a>
-		                    </div>
-		                </div>
-		            </article>
-		            <article class="project-card fade-up delay-6">
-		                <img src="assets/images/projects/auth0.png" alt="Auth0 integration">
-		                <div class="project-card-body">
-		                    <h3>Auth0 Integration</h3>
-		                    <p>Secured React experiences with robust Auth0 authentication and session flows.</p>
-		                    <div class="project-actions">
-		                        <a class="btn project-btn" href="https://github.com/MeghaN28/react-auth0" target="_blank">View on GitHub</a>
-		                    </div>
-		                </div>
-		            </article>
-		            <article class="project-card fade-up delay-7">
-		                <img src="assets/images/projects/babyblues.png" alt="Beyond Baby Blues agent">
-		                <div class="project-card-body">
-		                    <h3>Beyond Baby Blues</h3>
-		                    <p>Flask-based REST API hosting a LangChain ReAct agent powered by Mistral AI to support expectant mothers with mental-health guidance and automated appointment booking.</p>
-		                    <div class="project-actions">
-		                        <a class="btn project-btn" href="https://github.com/MeghaN28/Oct-4-Hackathon-2025-BeyondBabyBlues/tree/team-7/final" target="_blank">View on GitHub</a>
-		                    </div>
-		                </div>
-		            </article>
-		        </div>
-		    </div>
-		</section><!--/.projects-->
-		<!--projects end -->
-
-		<!--clients start -->
-
-		<!--clients end -->
-
-		<!--contact start -->
-		<section id="contact" class="contact">
-			<div class="container">
-    <div class="contact-content text-center">
-        <div class="row justify-content-center">
-            <div class="col-md-6 col-sm-8 col-xs-12 col-md-offset-3">
-                <div class="single-contact-box">
-                    <div class="contact-adress">
-                        <div class="contact-add-head">
-                            <h3>Megha Narendra Simha</h3>
-                            <p>Full Stack Developer</p>
+                <div class="mn-about-grid">
+                    <div class="mn-about-photo reveal-init">
+                        <img src="assets/images/about/megha-headshot.jpg" alt="Megha Narendra Simha">
+                        <div class="mn-about-socials">
+                            <a href="https://www.linkedin.com/in/megha-narendra-simha-375684148/" target="_blank" aria-label="LinkedIn"><i class="fa fa-linkedin"></i></a>
+                            <a href="https://github.com/MeghaN28" target="_blank" aria-label="GitHub"><i class="fa fa-github"></i></a>
                         </div>
-                        <div class="contact-add-info">
-                            <div class="single-contact-add-info">
-                                <h3>phone</h3>
-                                <p>206-596-1323</p>
-                            </div>
-                            <div class="single-contact-add-info">
-                                <h3>email</h3>
-                                <p>n.megha82@gmail.com</p>
-                            </div>
+                    </div>
+
+                    <div class="mn-about-copy">
+                        <p class="mn-lede reveal-init">
+                            I am a software engineer with 4+ years of experience building AI-powered security
+                            tooling and scalable production systems. I verify AI agent behavior with automated
+                            guardrails before outputs are trusted, and build cryptographic threat-detection
+                            pipelines that automate security workflows in CI/CD.
+                        </p>
+                        <ul class="mn-list reveal-init">
+                            <li>Building an AI-powered PQC security assessment pipeline at iLink Digital that verifies cryptographic risk and AI agent output before deployment.</li>
+                            <li>Designed multi-agent systems for SmartCart AI and Supply Soul, pairing secure RAG pipelines with real production impact.</li>
+                            <li>Support peers as a teaching assistant and hackathon mentor, translating complex AI and security concepts into repeatable learning journeys.</li>
+                        </ul>
+                        <div class="mn-stat-row reveal-init">
+                            <div><span>200+</span><p>students mentored</p></div>
+                            <div><span>50+</span><p>hackathon participants guided</p></div>
+                            <div><span>4+</span><p>years shipping secure software</p></div>
                         </div>
-                    </div><!--/.contact-adress-->
-                </div><!--/.single-contact-box-->
-            </div><!--/.col-->
-        </div><!--/.row-->
-    </div><!--/.contact-content-->
-            </div><!--/.container-->
+                        <div class="mn-contact-line reveal-init">
+                            <div><span>Location</span><p>Seattle, WA</p></div>
+                            <div><span>Email</span><p><a href="mailto:n.megha82@gmail.com">n.megha82@gmail.com</a></p></div>
+                        </div>
+                    </div>
+                </div>
 
+                <div class="mn-education reveal-init">
+                    <article class="mn-edu-row">
+                        <span class="mn-edu-date">Apr 2024 – Mar 2026</span>
+                        <div>
+                            <h3>Master of Computer Science</h3>
+                            <p>City University of Seattle — Seattle, WA, USA. Dean's List, Top 10%. Focused on AI/ML-driven applications, secure systems, and cloud-native architectures.</p>
+                        </div>
+                    </article>
+                    <article class="mn-edu-row">
+                        <span class="mn-edu-date">Jun 2014 – Jun 2018</span>
+                        <div>
+                            <h3>B.E. Computer Science &amp; Engineering</h3>
+                            <p>JSS Academy of Technical Education — Bengaluru, India. Grounded in software engineering, databases, and object-oriented programming.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
 
-		</section><!--/.contact-->
-		<!--contact end -->
+        <!-- Experience -->
+        <section id="experience" class="mn-section mn-section-alt">
+            <div class="mn-container">
+                <div class="mn-section-head reveal-init">
+                    <span class="mn-index">02</span>
+                    <h2>Experience</h2>
+                </div>
 
-		<!--footer-copyright start-->
-		<footer id="footer-copyright" class="footer-copyright">
-			<div class="container">
-				<div class="hm-footer-copyright text-center">
-					<p>
-						&copy; Megha. design and developed by Megha</a>
-					</p><!--/p-->
-				</div><!--/.text-center-->
-			</div><!--/.container-->
+                <div class="mn-timeline">
+                    <article class="mn-tl-row reveal-init">
+                        <span class="mn-tl-date">Apr 2026 – Present</span>
+                        <div>
+                            <h3 class="mn-tl-role">AI Security Intern</h3>
+                            <span class="mn-tl-company">iLink Digital</span>
+                            <ul>
+                                <li>Built an AI-powered PQC security assessment pipeline verifying cryptographic risk and AI agent output before deployment, reducing solution design time by 40%.</li>
+                                <li>Evaluated 15+ PQC and CBOM concepts, detecting quantum-vulnerable algorithms (Shor's, Grover's, HNDL) requiring remediation.</li>
+                                <li>Assessed VPN quantum risks and hybrid TLS 1.3 + PQC models, strengthening endpoint and infrastructure threat detection expertise.</li>
+                            </ul>
+                        </div>
+                    </article>
 
-			<div id="scroll-Top">
-				<div class="return-to-top">
-					<i class="fa fa-angle-up " id="scroll-top" ></i>
-				</div>
-				
-			</div><!--/.scroll-Top-->
-			
-        </footer><!--/.footer-copyright-->
-		<!--footer-copyright end-->
-		
-		<!-- Include all js compiled plugins (below), or include individual files as needed -->
+                    <article class="mn-tl-row reveal-init">
+                        <span class="mn-tl-date">Jan 2025 – Mar 2026</span>
+                        <div>
+                            <h3 class="mn-tl-role">Student Worker / Teaching Assistant</h3>
+                            <span class="mn-tl-company">City University of Seattle · Seattle, WA</span>
+                            <ul>
+                                <li>Led support for AI, Database Systems, Cloud Computing, and Secure Systems courses for 200+ students and 8 professors.</li>
+                                <li>Organized and executed a hackathon with 50+ participants, mentoring teams on AI agent and scalable system solutions.</li>
+                            </ul>
+                        </div>
+                    </article>
 
-		<script src="assets/js/jquery.js"></script>
-        
-        <!--modernizr.min.js-->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
-		
-		<!--bootstrap.min.js-->
-        <script src="assets/js/bootstrap.min.js"></script>
-		
-		<!-- bootsnav js -->
-		<script src="assets/js/bootsnav.js"></script>
-		
-		<!-- jquery.sticky.js -->
-		<script src="assets/js/jquery.sticky.js"></script>
-		
-		<!-- for progress bar start-->
+                    <article class="mn-tl-row reveal-init">
+                        <span class="mn-tl-date">Jun 2024 – Aug 2024</span>
+                        <div>
+                            <h3 class="mn-tl-role">Software Developer Intern</h3>
+                            <span class="mn-tl-company">Costco Wholesale · Issaquah, WA</span>
+                            <ul>
+                                <li>Improved .NET Core microservices by optimizing async workflows and SQL queries, reducing API latency by 30% while maintaining secure data handling practices.</li>
+                                <li>Built secure REST APIs using OAuth2, JWT, and RBAC, enforcing authentication, authorization, and access control for 8,000+ requests/day.</li>
+                                <li>Presented system architecture to 50+ stakeholders in a fast-paced, cross-functional environment.</li>
+                            </ul>
+                        </div>
+                    </article>
 
-		<!-- progressbar js -->
-		<script src="assets/js/progressbar.js"></script>
+                    <article class="mn-tl-row reveal-init">
+                        <span class="mn-tl-date">Feb 2022 – Feb 2023</span>
+                        <div>
+                            <h3 class="mn-tl-role">Application Development Analyst</h3>
+                            <span class="mn-tl-company">Accenture · Bengaluru, India</span>
+                            <ul>
+                                <li>Developed backend and distributed data systems for 10,000+ users, applying object-oriented design and secure coding practices.</li>
+                                <li>Designed QR-based workflows and optimized frontend performance, reducing load time by 40%.</li>
+                                <li>Owned operational health and deployment efficiency using Azure DevOps CI/CD and Cosmos DB, including monitoring and incident resolution.</li>
+                            </ul>
+                        </div>
+                    </article>
 
-		<!-- appear js -->
-		<script src="assets/js/jquery.appear.js"></script>
+                    <article class="mn-tl-row reveal-init">
+                        <span class="mn-tl-date">Apr 2019 – Mar 2021</span>
+                        <div>
+                            <h3 class="mn-tl-role">Software Developer</h3>
+                            <span class="mn-tl-company">NTT Data · Bengaluru, India</span>
+                            <ul>
+                                <li>Led RxChange feature development in a multi-tiered distributed system and optimized SQL queries, reducing latency by ~30%.</li>
+                                <li>Delivered documentation, code reviews, and KT sessions for 50+ engineers, and demoed product capabilities to 100+ stakeholders.</li>
+                            </ul>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
 
-		<!-- for progress bar end -->
+        <!-- Skills -->
+        <section id="skills" class="mn-section">
+            <div class="mn-container">
+                <div class="mn-section-head reveal-init">
+                    <span class="mn-index">03</span>
+                    <h2>Skills &amp; Tooling</h2>
+                </div>
 
-		<!--owl.carousel.js-->
-        <script src="assets/js/owl.carousel.min.js"></script>
+                <div class="mn-skills-grid reveal-init">
+                    <div class="mn-skill-col mn-skill-featured">
+                        <div class="mn-skill-head">
+                            <span class="mn-skill-icon"><i class="fa fa-shield" aria-hidden="true"></i></span>
+                            <h4>AI Agent Verification &amp; Security</h4>
+                            <p>My core specialty — guardrails and threat detection that verify AI output before it's trusted.</p>
+                        </div>
+                        <div class="mn-pill-wrap">
+                            <div class="mn-pill">AI Guardrails</div>
+                            <div class="mn-pill">Prompt Injection Defense</div>
+                            <div class="mn-pill">Hallucination Detection</div>
+                            <div class="mn-pill">Output Validation</div>
+                            <div class="mn-pill">OWASP-Aligned Design</div>
+                            <div class="mn-pill">PQC &amp; CBOM</div>
+                        </div>
+                    </div>
 
+                    <div class="mn-skill-col">
+                        <div class="mn-skill-head">
+                            <span class="mn-skill-icon"><i class="fa fa-comments-o" aria-hidden="true"></i></span>
+                            <h4>AI, LLM &amp; Agent Systems</h4>
+                        </div>
+                        <div class="mn-pill-wrap">
+                            <div class="mn-pill">Multi-Agent Systems</div>
+                            <div class="mn-pill">MCP Servers (FastMCP)</div>
+                            <div class="mn-pill">LangChain</div>
+                            <div class="mn-pill">RAG</div>
+                            <div class="mn-pill">Prompt Engineering</div>
+                            <div class="mn-pill">Mistral / LLM Integration</div>
+                        </div>
+                    </div>
 
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-		
-        
-        <!--Custom JS-->
-        <script src="assets/js/custom.js"></script>
-        
-    </body>
-	
+                    <div class="mn-skill-col">
+                        <div class="mn-skill-head">
+                            <span class="mn-skill-icon"><i class="fa fa-code" aria-hidden="true"></i></span>
+                            <h4>Languages &amp; OOD</h4>
+                        </div>
+                        <div class="mn-pill-wrap">
+                            <div class="mn-pill">Python</div>
+                            <div class="mn-pill">C#</div>
+                            <div class="mn-pill">Java</div>
+                            <div class="mn-pill">JavaScript</div>
+                            <div class="mn-pill">TypeScript</div>
+                            <div class="mn-pill">Object-Oriented Design</div>
+                        </div>
+                    </div>
+
+                    <div class="mn-skill-col">
+                        <div class="mn-skill-head">
+                            <span class="mn-skill-icon"><i class="fa fa-cloud" aria-hidden="true"></i></span>
+                            <h4>Cloud &amp; CI/CD</h4>
+                        </div>
+                        <div class="mn-pill-wrap">
+                            <div class="mn-pill">AWS</div>
+                            <div class="mn-pill">Azure</div>
+                            <div class="mn-pill">GCP</div>
+                            <div class="mn-pill">GitHub Actions</div>
+                            <div class="mn-pill">CI/CD Automation</div>
+                            <div class="mn-pill">Microservices</div>
+                        </div>
+                    </div>
+
+                    <div class="mn-skill-col">
+                        <div class="mn-skill-head">
+                            <span class="mn-skill-icon"><i class="fa fa-database" aria-hidden="true"></i></span>
+                            <h4>Security &amp; Databases</h4>
+                        </div>
+                        <div class="mn-pill-wrap">
+                            <div class="mn-pill">OAuth2</div>
+                            <div class="mn-pill">JWT</div>
+                            <div class="mn-pill">RBAC</div>
+                            <div class="mn-pill">ChromaDB</div>
+                            <div class="mn-pill">PostgreSQL</div>
+                            <div class="mn-pill">SQL Server / MongoDB / Redis</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section id="projects" class="mn-section mn-section-alt">
+            <div class="mn-container">
+                <div class="mn-section-head reveal-init">
+                    <span class="mn-index">04</span>
+                    <h2>Selected Work</h2>
+                </div>
+
+                <div class="mn-projects">
+
+                    <article class="mn-project reveal-init">
+                        <span class="mn-project-index">01</span>
+                        <div class="mn-project-info">
+                            <span class="mn-project-tag">Featured · AI Security</span>
+                            <h3>PQC Security Assessment Workspace</h3>
+                            <p>AI Security Copilot (Mistral LLM) that verifies cryptographic risk and generates security reports, gated by 3 production guardrails — prompt injection protection, hallucination detection, and output validation. NIST-grounded RAG pipeline, automated end-to-end in a GitHub Actions CI/CD security gate.</p>
+                            <a class="mn-project-link" href="https://github.com/MeghaN28/Secure-AI-Hackathon" target="_blank">View on GitHub <span>↗</span></a>
+                        </div>
+                        <div class="mn-project-visual mn-project-visual-fallback">
+                            <i class="fa fa-shield" aria-hidden="true"></i>
+                        </div>
+                    </article>
+
+                    <article class="mn-project reveal-init">
+                        <span class="mn-project-index">02</span>
+                        <div class="mn-project-info">
+                            <h3>SmartCart AI</h3>
+                            <p>A decision-centric agentic system for inventory waste reduction and pricing optimization. Multi-agent design with secure, OWASP-aligned RAG pipelines (PGVector, PyTorch), reducing perishable waste by 92% and improving prediction accuracy by 85%.</p>
+                            <a class="mn-project-link" href="https://github.com/MeghaN28/SmartCartAI" target="_blank">View on GitHub <span>↗</span></a>
+                        </div>
+                        <div class="mn-project-visual mn-project-visual-fallback mn-visual-2">
+                            <i class="fa fa-shopping-basket" aria-hidden="true"></i>
+                        </div>
+                    </article>
+
+                    <article class="mn-project reveal-init">
+                        <span class="mn-project-index">03</span>
+                        <div class="mn-project-info">
+                            <h3>Supply Soul</h3>
+                            <p>Pharmacy inventory management: a multi-agent forecasting system (FastMCP, PGVector) with a voice AI assistant and automated workflows, improving stock availability by 30% and reducing stockouts by 50%.</p>
+                            <a class="mn-project-link" href="https://github.com/MeghaN28/Team1_LowCodeAgenthon" target="_blank">View on GitHub <span>↗</span></a>
+                        </div>
+                        <div class="mn-project-visual mn-project-visual-fallback mn-visual-3">
+                            <i class="fa fa-heartbeat" aria-hidden="true"></i>
+                        </div>
+                    </article>
+
+                    <article class="mn-project reveal-init">
+                        <span class="mn-project-index">04</span>
+                        <div class="mn-project-info">
+                            <h3>AI Tutor</h3>
+                            <p>Gemini-based learning assistant that delivers quizzes, study plans, and collaborative edits.</p>
+                            <a class="mn-project-link" href="https://github.com/MeghaN28/AI-Tutor" target="_blank">View on GitHub <span>↗</span></a>
+                        </div>
+                        <div class="mn-project-visual mn-project-visual-fallback mn-visual-4">
+                            <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+                        </div>
+                    </article>
+
+                    <article class="mn-project reveal-init">
+                        <span class="mn-project-index">05</span>
+                        <div class="mn-project-info">
+                            <h3>AWS Rekognition Image Analysis</h3>
+                            <p>React-based image analysis tool with Lambda, API Gateway, S3, and DynamoDB, achieving 95% detection accuracy on 200+ images.</p>
+                            <a class="mn-project-link" href="https://github.com/MeghaN28/ImageUploadFrontEnd" target="_blank">View on GitHub <span>↗</span></a>
+                        </div>
+                        <div class="mn-project-visual mn-project-visual-fallback mn-visual-5">
+                            <i class="fa fa-eye" aria-hidden="true"></i>
+                        </div>
+                    </article>
+
+                    <article class="mn-project reveal-init">
+                        <span class="mn-project-index">06</span>
+                        <div class="mn-project-info">
+                            <h3>PodEdu AI</h3>
+                            <p>Next.js platform that transcribes video, generates AI podcast recaps, and streams AI avatar hosts.</p>
+                            <a class="mn-project-link" href="https://github.com/MeghaN28/HackathonPOC" target="_blank">View on GitHub <span>↗</span></a>
+                        </div>
+                        <div class="mn-project-visual mn-project-visual-fallback mn-visual-6">
+                            <i class="fa fa-video-camera" aria-hidden="true"></i>
+                        </div>
+                    </article>
+
+                    <article class="mn-project reveal-init">
+                        <span class="mn-project-index">07</span>
+                        <div class="mn-project-info">
+                            <h3>Auth0 Integration</h3>
+                            <p>Secured React experiences with robust Auth0 authentication and session flows.</p>
+                            <a class="mn-project-link" href="https://github.com/MeghaN28/react-auth0" target="_blank">View on GitHub <span>↗</span></a>
+                        </div>
+                        <div class="mn-project-visual mn-project-visual-fallback mn-visual-7">
+                            <i class="fa fa-lock" aria-hidden="true"></i>
+                        </div>
+                    </article>
+
+                    <article class="mn-project reveal-init">
+                        <span class="mn-project-index">08</span>
+                        <div class="mn-project-info">
+                            <h3>Beyond Baby Blues</h3>
+                            <p>Flask-based REST API hosting a LangChain ReAct agent powered by Mistral AI to support expectant mothers with mental-health guidance and automated appointment booking.</p>
+                            <a class="mn-project-link" href="https://github.com/MeghaN28/Oct-4-Hackathon-2025-BeyondBabyBlues/tree/team-7/final" target="_blank">View on GitHub <span>↗</span></a>
+                        </div>
+                        <div class="mn-project-visual mn-project-visual-fallback mn-visual-8">
+                            <i class="fa fa-heart" aria-hidden="true"></i>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact" class="mn-section mn-contact">
+            <div class="mn-container mn-contact-inner reveal-init">
+                <span class="mn-index">05</span>
+                <h2 class="mn-contact-title">Let's build something<br>secure together.</h2>
+                <a class="mn-contact-email" href="mailto:n.megha82@gmail.com">n.megha82@gmail.com</a>
+                <div class="mn-contact-links">
+                    <a href="https://www.linkedin.com/in/megha-narendra-simha-375684148/" target="_blank">LinkedIn ↗</a>
+                    <a href="https://github.com/MeghaN28" target="_blank">GitHub ↗</a>
+                    <a href="assets/download/Megha_N_Resume_2026.pdf" target="_blank">Résumé ↗</a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="mn-footer">
+        <div class="mn-container mn-footer-inner">
+            <p>© 2026 Megha Narendra Simha. Designed &amp; built by Megha.</p>
+            <button type="button" id="mn-to-top" class="mn-to-top" aria-label="Back to top">↑</button>
+        </div>
+    </footer>
+
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/custom.js"></script>
+</body>
+
 </html>
